@@ -1,12 +1,12 @@
 cask "qterm" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.0.6"
+  version "0.0.7"
 
-  sha256 arm:   "bbb4edcdeb44c96729cf053ee3a236b65ffea809ed05259a8c47178ef54136bc",
-         intel: "9ecf4a14f7e3d2a64f117abfdbdcd2932c83dcaada99037f3fdc7626e4e0da81"
+  sha256 arm:   "ac89f5b915819e586c0a2009f9bb1d0f2c4ada5acdcf129d3f10779d1208b803",
+         intel: "cafc86a84bb387f8aaf93d388a50e46f5d6a0ec0a26aa4773a39e9d78de92e0f"
 
-  url "https://github.com/LLiuHuan/Qterm/releases/download/v0.0.6/qterm-darwin-#{arch}.zip"
+  url "https://github.com/LLiuHuan/Qterm/releases/download/v0.0.7/qterm-darwin-#{arch}.zip"
 
   name "Qterm"
   desc "Cross-platform terminal and remote desktop client"
