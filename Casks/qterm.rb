@@ -3,8 +3,8 @@ cask "qterm" do
 
   version "0.0.12"
 
-  sha256 arm:   "752e53e46cdfb68faa6ac157db9fd33a86cd835edfce048a3b0275f8f635b5fd",
-         intel: "9b411127d7d18e611f2484b5cf66deef47778f4fc2445b9dc1faa21d02170b46"
+  sha256 arm:   "c1deba6943392563e36b76fb28e32844c7b2d7ddac997ce6b49b2bf17fde0cca",
+         intel: "93197a5cbd3adc5ecdd058708a32934f4ca69b7758a9a86e9b22cab290e24285"
 
   url "https://github.com/LLiuHuan/Qterm/releases/download/v0.0.12/qterm-darwin-#{arch}.zip"
 
